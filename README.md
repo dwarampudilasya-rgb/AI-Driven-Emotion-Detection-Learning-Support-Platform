@@ -1,54 +1,108 @@
-# Emotion-Detection-Learning-Support-Engine
-AI-powered Emotion Detection and Learning Support System using BiLSTM, TensorFlow, and NLP.# Emotion Detection & Learning Support Engine
+# 😊 AI-Driven Emotion Detection & Personalized Learning Support Platform
 
-## Project Description
-The Emotion Detection & Learning Support Engine is an AI-powered application that analyzes user text and detects emotions using a BiLSTM deep learning model. Based on the detected emotion, the system provides personalized learning guidance to support learners effectively.
+## 📌 Project Overview
+The AI-Driven Emotion Detection & Personalized Learning Support Platform is a web application that detects a learner's emotional state from text using a BiLSTM deep learning model. Based on the detected emotion, the system provides personalized learning guidance to help students stay motivated and improve their learning experience.
 
-## Features
+The application also stores prediction logs and displays an analytics dashboard showing emotion distribution over time.
+
+---
+
+## 🎯 Objectives
+
+- Detect emotions from user text using NLP.
+- Provide personalized learning guidance.
+- Maintain emotion history using CSV logs.
+- Visualize emotion trends through an analytics dashboard.
+
+---
+
+## ✨ Features
+
 - Emotion Detection using BiLSTM
-- Text Preprocessing using NLP techniques
-- Personalized Learning Support
-- Analytics Dashboard using Plotly
-- CSV Logging of Predictions
-- Emotion Visualization
+- Text Preprocessing with Tokenizer
+- Confidence Score Prediction
+- Primary & Secondary Emotion Detection
+- Personalized Learning Guidance
+- Emotion Analytics Dashboard
+- CSV Log Generation
+- Interactive Streamlit User Interface
 
-## Technologies Used
+---
+
+## 🛠 Technologies Used
+
 - Python
 - TensorFlow
 - Keras
-- Pandas
-- NumPy
-- Scikit-learn
-- Plotly
 - Streamlit
-- Google Colab
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
 
-## Supported Emotions
+---
+
+## 📂 Project Structure
+
+```
+AI-Driven-Emotion-Detection-Learning-Support-Platform/
+│
+├── App/
+│   └── app.py
+│
+├── Dataset/
+│   └── dataset.csv
+│
+├── Models/
+│   ├── bilstm_model.h5
+│   ├── tokenizer.pkl
+│   └── label_encoder.pkl
+│
+├── Logs/
+│   └── emotion_logs.csv
+│
+├── README.md
+├── requirements.txt
+```
+
+---
+
+## 😊 Supported Emotions
+
+- Joy
+- Sadness
 - Anger
 - Fear
-- Joy
 - Love
-- Sadness
 - Surprise
 
-## Model Performance
-- Training Accuracy: 96.87%
-- Validation Accuracy: 87.06%
+---
 
-## Project Workflow
-1. Load and preprocess the dataset.
-2. Convert text into sequences using Tokenizer.
-3. Train a BiLSTM model for emotion classification.
-4. Predict emotions from user input.
-5. Provide AI-based learning guidance.
-6. Visualize emotion distribution using graphs.
-7. Store prediction logs in CSV format.
+## 🔄 Project Workflow
 
-## Future Enhancements
-- Integration with Gemini AI for advanced guidance.
-- Deployment using Streamlit Cloud.
-- Addition of BERT model for comparison.
-- Real-time emotion analytics dashboard.
+1. User enters text.
+2. Text is preprocessed using the tokenizer.
+3. BiLSTM model predicts the emotion.
+4. Confidence score is calculated.
+5. Learning guidance is displayed.
+6. Prediction is stored in CSV.
+7. Dashboard visualizes emotion distribution.
+8.Gemini AI Integration for guidance
 
-## Author
-** MEDIDHI V NAGA SRI SURYA SATYA SANTHOSHI **
+---
+
+## 🚀 Future Enhancements
+
+- Cloud Deployment
+- Real-time Analytics
+- Multi-language Support
+
+---
+
+## 👩‍💻 Author
+
+**Lasya Dwarampudi**
+
+B.Tech CSE (AI & ML)
+
+University College of Engineering, Kakinada
