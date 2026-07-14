@@ -19,3 +19,4 @@ Timestamp,Input_Text,Predicted_Emotion,Confidence
 2026-07-14 21:24:20.418688,i am very angry,anger,99.2
 2026-07-14 21:25:10.785047,"i am scared of exams
 ",fear,99.2
+2026-07-14 23:26:19.662785,i am very happy,joy,99.2
